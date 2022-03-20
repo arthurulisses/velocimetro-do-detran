@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: linear-gradient( white, rgb(94, 139, 94));
+    background-attachment: fixed;
+    font-weight: bold;
+    height: 100%;
+}
+body h1 {
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: center;
+    background-image: linear-gradient( rgb(255, 255, 0), rgb(0, 128, 0));
+    padding: 25px;
+    border-radius: 60px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+    color: white;
+}
+body> section{
+    background-color: rgba(83, 182, 83, 0.712);
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.575);
+}
+body input#txtvel{
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+body input#c{
+    border-radius: 3px;
+    width: 100px;
+    background-image: linear-gradient( red, black);
+    color: white;
+}
+body p{
+    text-align: center;
+    margin: 5px;
+}
+body p strong{
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+}
+body> p > em{
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-size: small;
+    margin: 5px;
+    text-align: center;
+}
+body footer{
+    background-color: red;
+    color: white;
+    position: fixed end;
+    font-weight: lighter;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+}
+body> footer > p > em > a{
+    text-decoration: none;
+    color: white;
+}
